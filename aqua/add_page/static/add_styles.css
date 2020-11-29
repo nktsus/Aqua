@@ -1,0 +1,53 @@
+
+
+/*------FORM CONTAINER SECTION*/
+.form-parent-block {
+	padding-top: 4vw;
+	text-align: center;
+	background: url(img/seawood_full_2.svg) no-repeat -10% 100%,
+				url(img/seawood_full_2.svg) no-repeat 70% -40%;
+}
+
+.form-block {
+	width: 30%;
+
+	text-align: center;
+	background: linear-gradient(to right, #5A3564, #826aaf);
+	border-radius: 5px;
+
+	display: inline-block;
+}
+
+.form-block h3 {
+	color: white;
+	font-family: 'Playfair Display', serif;
+	/*font-size: ;*/
+}
+
+.form-block input, textarea {
+	width: 50%;
+	height: 3vw;
+	margin-top: 1.5vw;
+	padding: 0.5vw;
+
+	color: #5A3564;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1vw;
+}
+
+textarea {
+	min-height: 10vw;
+}
+
+.form-block input:last-child {
+	width: 25%;
+}
+
+.form-block img {
+	position: absolute;
+	top: 0vw;
+	left: 10vw;
+	width: 30vw;
+}
